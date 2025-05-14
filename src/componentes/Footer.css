@@ -1,7 +1,6 @@
 /* 4. Footer fixo ao bottom quando content < viewport, mas scrolla junto quando content > viewport */
 footer {
   height: 120px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,4 +14,15 @@ footer {
 .footer p {
   margin: 0;     
  
+}
+
+@media (max-width: 600px) {
+  footer {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
 }

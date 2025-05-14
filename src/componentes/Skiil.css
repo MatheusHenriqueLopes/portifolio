@@ -36,3 +36,14 @@
     align-items: center;
     margin-top: 32px;
   }
+
+  @media (max-width: 600px) {
+  .hex {
+    font-size: 20px; /* diminui um pouco os hexágonos */
+  }
+
+  .skill-list {
+    grid-template-columns: 1fr; /* uma coluna em telas pequenas */
+    padding: 0 1rem;
+  }
+}
