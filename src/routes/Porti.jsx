@@ -10,7 +10,7 @@ const projects = [
     { id: 1, title: "Multistep-Form", description: "Formulário com múltiplas etapas feito em React", url: "https://multistep-form-react-opal.vercel.app/", image: ImgPro }, 
     { id: 2, title: "GitHub Finder ", description: "Aplicação que busca usuários e repositórios no GitHub", url: "https://git-hub-six-omega.vercel.app/", image: ImgPro2 },
     { id: 2, title: "FL Veiculos", description: "Site institucional para uma loja de motos", url: "https://flveiculos.vercel.app/", image: ImgPro3  },
-    { id: 2, title: "Portifólio", description: "Meu portfólio pessoal com projetos em React", url: "", image: PortiFolio },
+    { id: 2, title: "Portifólio", description: "Meu portfólio pessoal com projetos em React", url: "https://portifolio-five-xi-65.vercel.app/", image: PortiFolio },
    
 ]
 
