@@ -24,7 +24,7 @@ footer {
 
   .footer p {
     font-size: 0.75rem; /* Fonte menor */
-    margin: 0; /* Remove margem se houver */
+    margin-top: 10px;
     line-height: 1.2; /* Deixa o texto mais compactado */
   }
 }

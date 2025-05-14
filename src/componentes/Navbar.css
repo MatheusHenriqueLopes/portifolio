@@ -25,9 +25,7 @@
 
   .navbar ul {
     flex-direction: column;
-    width: 100%;
-    gap: 0.25rem;
-    margin-top: 0.5rem;
+    margin-top: -35px;
   }
 
   .navbar a {

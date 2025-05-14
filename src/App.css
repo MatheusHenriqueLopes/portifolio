@@ -155,77 +155,70 @@ font-size: 23px;
 
 
  @media (max-width: 600px) {
-
-
   * {
-    box-sizing: border-box; /* Garante que padding e border não aumentem a largura dos elementos */
+    box-sizing: border-box;
   }
 
-
- .title {
-  max-width: 280px;
-  left: 1px;
-  top: 300px;
- }
+  .title {
+    max-width: 100%;
+    text-align: center;
+    position: static;
+    top: auto;
+    left: auto;
+  }
 
   .grande {
     font-size: 1rem;
+    text-align: center;
+  }
 
+  .btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
   }
 
   .btn-porti {
+    max-width: 180px;
+    height: 48px;
     font-size: 18px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .art-home {
+    max-width: 90%;
+    margin: 40px auto 0 auto;
+    position: static;
+  }
+
+  .art-home img {
+    width: 100%;
+    height: auto;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .social-icons img {
+    width: 32px;
+    height: 32px;
   }
 
   .card {
     width: 90%;
+    margin: 0 auto;
   }
 
   .hexagon {
     width: 120px;
     height: 100px;
   }
- .art-home {
-   max-width: 200px;
-   left: 200px;
-   top: 400px;
-  
-  }
-
-  .art-home img {
-    width: 100%; 
-    height: auto; 
-  }
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 30px;
-}
-.social-icons img {
-  width: 32px;
-  height: 32px;
-}
-
-.btn-container {
-  width: 100%;
-  display: flex;
-  margin-top: 150px;
-  max-width: 200px;
-  
-}
-
-
-
-.btn-porti {
-  max-width: 180px;
-  height: 48px;
-  font-size: 18px;
-  position: static; 
-  border-radius: 10px;
-  
-}
 }
 
 
