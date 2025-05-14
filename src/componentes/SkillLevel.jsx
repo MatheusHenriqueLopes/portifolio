@@ -16,7 +16,7 @@ const hexes = [...filled, ...empty];
         {hexes.map((isFilled, index) => (
           <span key={index} className={`hex ${isFilled ? "filled" : ""}`}>⬢</span>
         ))}
-        <h3>Todos os projetos estão no meu Git Hub</h3>
+        
       </div>
     </div>
   </div>
