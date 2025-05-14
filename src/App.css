@@ -157,6 +157,10 @@ font-size: 23px;
  @media (max-width: 600px) {
 
 
+  * {
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura dos elementos */
+  }
+
 
  .title {
   max-width: 280px;
@@ -182,18 +186,18 @@ font-size: 23px;
     height: 100px;
   }
 
-   .art-home {
-    width: 50px;
-    height: 300px;
+     .art-home {
+    width: 100%; /* Garante que a arte ocupe toda a largura disponível */
+    max-width: 300px; /* Limita a largura máxima para que não fique muito grande */
     margin-left: auto;
-    margin-right: auto; /* Centraliza a arte */
-    margin-bottom: 20px; /* Adiciona um espaçamento inferior */
+    margin-right: auto;
+    margin-bottom: 20px; /* Espaçamento inferior */
     position: relative;
   }
 
-.art-home img {
-    max-height: 280px;
-    width: 100%; /* Garante que a imagem não ultrapasse a largura */
+  .art-home img {
+    width: 100%; /* Garante que a imagem ocupe a largura total da sua div */
+    height: auto; /* Mantém a proporção da imagem */
   }
 
 .social-icons {
