@@ -1,0 +1,18 @@
+/* 4. Footer fixo ao bottom quando content < viewport, mas scrolla junto quando content > viewport */
+footer {
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #445964;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+.footer p {
+  margin: 0;     
+ 
+}

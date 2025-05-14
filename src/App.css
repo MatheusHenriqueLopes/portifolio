@@ -1,0 +1,164 @@
+/* 1. Garanta que html, body e root ocupem 100% da altura */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* 2. Layout principal flexível */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;      /* ocupa toda a altura da janela */
+}
+
+
+/* 3. Container de conteúdo entre Navbar e Footer */
+.container {
+  flex: 1;                /* cresce para preencher o espaço livre */
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;         /* se precisar de scroll interno, aparece aqui */
+}
+
+
+
+  .titulo{
+    text-align: center;
+    color: #445964;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+  }
+
+  .hexagon {
+    width: 150px;
+    height: 130px;
+    position: relative;
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+    overflow: hidden;
+    margin: 0 auto;
+    color: #445964;
+  }
+  
+  .hexagon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+  }
+  .title-porti p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .card {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .card p {
+  margin: 0 1rem 1rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 72px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  
+
+ .art-home {
+  position: absolute;
+  width: 705px;
+  height: 697px;
+  left: 961px;
+  top: 108px;
+ }
+
+ .title {
+  position: absolute;
+width: 545px;
+height: 240px;
+left: 207px;
+top: 337px;
+ }
+ .pequeno {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 10px;
+ }
+
+ .grande {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #445964;
+ }
+
+ 
+.btn-container {
+  margin-top: 30px;
+}
+ .btn-porti{
+  position: absolute;
+width: 310px;
+height: 55px;
+left: 550px;
+top: 600px;
+border: 4px solid #445964;
+cursor: pointer;
+border-radius: 20px;
+font-size: 23px;
+ }
+
+ .insta-log {
+  position: absolute;
+width: 39.92px;
+height: 39.92px;
+left: 320px;
+top: 750px;
+ }
+
+ .link-log {
+  position: absolute;
+width: 39.92px;
+height: 39.92px;
+left: 260px;
+top: 750px;
+ }
+
+ .git-log {
+  position: absolute;
+width: 39.92px;
+height: 39.92px;
+left: 200px;
+top: 750px;
+ }
