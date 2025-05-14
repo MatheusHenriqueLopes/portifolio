@@ -19,10 +19,12 @@ footer {
 @media (max-width: 600px) {
   footer {
     height: auto;
-    padding: 1rem;
+    padding: 0.3rem 0.5rem; /* Menor padding para deixar mais fino */
   }
 
   .footer p {
-    font-size: 0.9rem;
+    font-size: 0.75rem; /* Fonte menor */
+    margin: 0; /* Remove margem se houver */
+    line-height: 1.2; /* Deixa o texto mais compactado */
   }
 }
