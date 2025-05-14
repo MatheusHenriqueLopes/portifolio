@@ -186,20 +186,15 @@ font-size: 23px;
     height: 100px;
   }
  .art-home {
-    width: 100%; /* Garante que a arte ocupe toda a largura disponível */
-    max-width: 300px; /* Limita a largura máxima */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px; /* Ajuste de margem superior */
-    margin-bottom: 20px; /* Espaçamento inferior */
-    position: relative;
-    display: block; /* Garante que a arte se comporte como um bloco */
-    height: auto; /* Ajusta a altura para manter a proporção */
+   max-width: 200px;
+   left: 200px;
+   top: 585px;
+  
   }
 
   .art-home img {
-    width: 100%; /* Garante que a imagem ocupe a largura total da sua div */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; 
+    height: auto; 
   }
 
 .social-icons {
