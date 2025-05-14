@@ -185,14 +185,16 @@ font-size: 23px;
     width: 120px;
     height: 100px;
   }
-
-     .art-home {
+ .art-home {
     width: 100%; /* Garante que a arte ocupe toda a largura disponível */
-    max-width: 300px; /* Limita a largura máxima para que não fique muito grande */
+    max-width: 300px; /* Limita a largura máxima */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px; /* Ajuste de margem superior */
     margin-bottom: 20px; /* Espaçamento inferior */
     position: relative;
+    display: block; /* Garante que a arte se comporte como um bloco */
+    height: auto; /* Ajusta a altura para manter a proporção */
   }
 
   .art-home img {
