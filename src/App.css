@@ -183,17 +183,19 @@ font-size: 23px;
   }
 
    .art-home {
- 
-  width: 50px;
-  height: 300px;
-  left: 140px;
-  top: 520px;
-   }
+    width: 50px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; /* Centraliza a arte */
+    margin-bottom: 20px; /* Adiciona um espaçamento inferior */
+    position: relative;
+  }
 
-   .art-home img {
-  max-height: 280px;
-  
-}
+.art-home img {
+    max-height: 280px;
+    width: 100%; /* Garante que a imagem não ultrapasse a largura */
+  }
+
 .social-icons {
   display: flex;
   justify-content: center;
