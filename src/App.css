@@ -140,38 +140,27 @@ font-size: 23px;
  }
 /* redes sociais
  */
- .insta-log {
-  position: absolute;
-width: 39.92px;
-height: 39.92px;
-left: 320px;
-top: 750px;
- }
 
- .link-log {
-  position: absolute;
-width: 39.92px;
-height: 39.92px;
-left: 260px;
-top: 750px;
- }
+ .social-icons {
+  display: flex;
+  justify-content:  baseline;
+  gap: 20px;
+  margin-top: 500px;
+}
 
- .git-log {
-  position: absolute;
-width: 39.92px;
-height: 39.92px;
-left: 200px;
-top: 750px;
- }
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
 
  @media (max-width: 600px) {
 
-  .title{
-    left: 1px;
-  }
+
 
  .title {
   max-width: 280px;
+  left: 1px;
   top: 300px;
  }
 
@@ -192,20 +181,6 @@ top: 750px;
     width: 120px;
     height: 100px;
   }
-  .insta-log {
-    top: 735px;
-    left: 110px;
-  }
-  
-  .link-log {
-     top: 735px;
-     left: 60px;
-   }
-
-   .git-log {
-    top: 735px;
-    left: 10px;
-   }
 
    .art-home {
  
@@ -218,6 +193,16 @@ top: 750px;
    .art-home img {
   max-height: 280px;
   
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.social-icons img {
+  width: 32px;
+  height: 32px;
 }
 
 .btn-container {

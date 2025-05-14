@@ -1,8 +1,7 @@
 import { useNavigate } from 'react-router-dom'
-import React, { useEffect, useState } from 'react'
+import  { useState } from 'react'
 
 import profilleImg from "../assets/home.svg"
-import GroupLogo from "../assets/group.svg"
 import InstaLogo from "../assets/insta.svg"
 import LinkLogo from "../assets/Linkedin.svg"
 import GitLogo from "../assets/Git.svg"
@@ -18,7 +17,6 @@ const Home = () => {
   return (
     <main className='container home-container'>
       <div className="art-home"><img src={profilleImg} alt="Ilustração da página inicial" /></div>
-      <div className="group-logo"><img src={GroupLogo} alt="Logo do grupo" /></div>
       <div className='title'>
         <p>
           <span className="pequeno">Olá pessoas, </span>
@@ -26,20 +24,10 @@ const Home = () => {
           <span className="pequeno">Seja bem-vindo ao meu portfólio website</span>
         </p>
       </div>
-      <div className="insta-log">
-        <a href="https://www.instagram.com/_theuslpss/" target='_blank'>
-        <img src={InstaLogo} alt="instagram" />
-        </a>
-      </div>
-      <div className="link-log">
-        <a href="https://www.linkedin.com/in/matheus-henrique-5460b9195/" target='_blank'>
-        <img src={LinkLogo} alt="linkedin" />
-        </a>
-      </div>
-      <div className="git-log">
-        <a href="" target='_blank'>
-        <img src={GitLogo} alt="git-hub" />
-        </a>
+      <div className="social-icons">
+      <a href="https://github.com/" target="_blank"><img src={GitLogo} alt="git-hub" /></a>
+      <a href="https://www.linkedin.com/in/matheus-henrique-5460b9195/" target="_blank"><img src={LinkLogo} alt="linkedin" /></a>
+      <a href="https://www.instagram.com/_theuslpss/" target="_blank"><img src={InstaLogo} alt="instagram" /></a>
       </div>
       <div className="btn-container">
         <button onClick={handleNavigate} className='btn-porti'>Meu Portfólio</button>
